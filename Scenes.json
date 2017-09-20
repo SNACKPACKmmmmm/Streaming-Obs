@@ -112,8 +112,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "Game+Cam",
-    "current_scene": "Game+Cam",
+    "current_program_scene": "Desktop",
+    "current_scene": "Desktop",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -239,52 +239,43 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "opacity": 50
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Desktop Screen": [],
-                "libobs.show_scene_item.Desktop Screen": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "color_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Desktop",
+            "name": "Color Source 2",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 3,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Desktop Screen",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
+                "color": 4288385949,
+                "height": 60
             },
             "sync": 0,
             "volume": 1.0
@@ -294,196 +285,18 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Cam": [],
-                "libobs.hide_scene_item.Color Source": [],
-                "libobs.hide_scene_item.Logo SP": [],
-                "libobs.hide_scene_item.PS4": [],
-                "libobs.hide_scene_item.SNACKPACK": [],
-                "libobs.hide_scene_item.Skype": [],
-                "libobs.show_scene_item.Cam": [],
-                "libobs.show_scene_item.Color Source": [],
-                "libobs.show_scene_item.Logo SP": [],
-                "libobs.show_scene_item.PS4": [],
-                "libobs.show_scene_item.SNACKPACK": [],
-                "libobs.show_scene_item.Skype": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "text_gdiplus",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Game+Cam",
+            "name": "Salty",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 18,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 15,
-                        "locked": false,
-                        "name": "PS4",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Cam",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 416.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.83651226758956909,
-                            "y": 0.83746558427810669
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Color Source",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 674.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.76749998331069946,
-                            "y": 0.76666665077209473
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 8,
-                        "locked": false,
-                        "name": "Logo SP",
-                        "pos": {
-                            "x": 246.0,
-                            "y": 670.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.02500000037252903,
-                            "y": 0.02500000037252903
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 9,
-                        "locked": false,
-                        "name": "SNACKPACK",
-                        "pos": {
-                            "x": 12.0,
-                            "y": 687.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.69393938779830933,
-                            "y": 0.69444441795349121
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 17,
-                        "locked": false,
-                        "name": "Skype",
-                        "pos": {
-                            "x": 967.0,
-                            "y": 466.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.39720812439918518,
-                            "y": 0.39749607443809509
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    }
-                ]
+                "text": "saltyswenis"
             },
             "sync": 0,
             "volume": 1.0
@@ -509,41 +322,37 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "bottom": 0,
-                        "left": 49,
-                        "right": 224,
-                        "top": 117
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "chroma_key_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Chroma Key",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "brightness": 0.02,
-                        "contrast": 0.34999999999999998,
-                        "gamma": 0.02,
-                        "similarity": 479,
-                        "smoothness": 16,
-                        "spill": 1
+                        "bottom": 71,
+                        "left": 119,
+                        "right": 50,
+                        "top": 79
                     },
                     "sync": 0,
                     "volume": 1.0
                 }
             ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Skype",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "cursor": false,
+                "window": "Skype™‎ - zac_bowman108@hotmail.com:tSkMainForm:Skype.exe"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -555,17 +364,143 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Cam",
+            "name": "PS4",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "buffering": 1,
-                "flip_vertically": false,
-                "last_video_device_id": "QuickCam Pro for Notebooks:\\\\?\\usb#22vid_046d&pid_0991&mi_00#226&129588a2&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
-                "video_device_id": "QuickCam Pro for Notebooks:\\\\?\\usb#22vid_046d&pid_0991&mi_00#226&129588a2&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+                "color_space": "709",
+                "last_video_device_id": "Elgato Game Capture HD:__elgato",
+                "video_device_id": "Elgato Game Capture HD:__elgato"
             },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "background",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/SNACKPACK/Desktop/Cool-Background-Pictures-215.jpeg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "opacity": 50
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "color_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Color Source",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4288385949,
+                "height": 60
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "SNACKPACK",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "text": "SNACKPACKmmmmm"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Logo SP",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/SNACKPACK/Desktop/SP.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Desktop Screen",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
             "sync": 0,
             "volume": 1.0
         },
@@ -772,161 +707,6 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "monitor_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Desktop Screen",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {},
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Logo SP",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "C:/Users/SNACKPACK/Desktop/SP.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "SNACKPACK",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "text": "SNACKPACKmmmmm"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "color_key_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Color Key",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "opacity": 50
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "color_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Color Source",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "color": 4288385949,
-                "height": 60
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "background",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "C:/Users/SNACKPACK/Desktop/Cool-Background-Pictures-215.jpeg"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "PS4",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "color_space": "709",
-                "last_video_device_id": "Elgato Game Capture HD:__elgato",
-                "video_device_id": "Elgato Game Capture HD:__elgato"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
             "filters": [
                 {
                     "deinterlace_field_order": 0,
@@ -943,25 +723,374 @@
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
-                    "settings": {},
+                    "settings": {
+                        "bottom": 0,
+                        "left": 49,
+                        "right": 224,
+                        "top": 117
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Key",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "brightness": 0.02,
+                        "contrast": 0.34999999999999998,
+                        "gamma": 0.02,
+                        "similarity": 479,
+                        "smoothness": 16,
+                        "spill": 1
+                    },
                     "sync": 0,
                     "volume": 1.0
                 }
             ],
             "flags": 0,
-            "hotkeys": {},
-            "id": "window_capture",
-            "mixers": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Skype",
+            "name": "Cam",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "cursor": false,
-                "window": "Skype™‎ - zac_bowman108@hotmail.com:tSkMainForm:Skype.exe"
+                "buffering": 1,
+                "flip_vertically": false,
+                "last_video_device_id": "QuickCam Pro for Notebooks:\\\\?\\usb#22vid_046d&pid_0991&mi_00#226&129588a2&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "video_device_id": "QuickCam Pro for Notebooks:\\\\?\\usb#22vid_046d&pid_0991&mi_00#226&129588a2&1&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cam": [],
+                "libobs.hide_scene_item.Color Source": [],
+                "libobs.hide_scene_item.Color Source 2": [],
+                "libobs.hide_scene_item.Logo SP": [],
+                "libobs.hide_scene_item.PS4": [],
+                "libobs.hide_scene_item.SNACKPACK": [],
+                "libobs.hide_scene_item.SNACKPACK 2": [],
+                "libobs.hide_scene_item.Skype": [],
+                "libobs.show_scene_item.Cam": [],
+                "libobs.show_scene_item.Color Source": [],
+                "libobs.show_scene_item.Color Source 2": [],
+                "libobs.show_scene_item.Logo SP": [],
+                "libobs.show_scene_item.PS4": [],
+                "libobs.show_scene_item.SNACKPACK": [],
+                "libobs.show_scene_item.SNACKPACK 2": [],
+                "libobs.show_scene_item.Skype": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Game+Cam",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 20,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 15,
+                        "locked": false,
+                        "name": "PS4",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Cam",
+                        "pos": {
+                            "x": 307.0,
+                            "y": 416.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.83651226758956909,
+                            "y": 0.83746558427810669
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Skype",
+                        "pos": {
+                            "x": 962.0,
+                            "y": 432.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.83932346105575562,
+                            "y": 0.83965015411376953
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Color Source",
+                        "pos": {
+                            "x": 307.0,
+                            "y": 672.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6399999856948853,
+                            "y": 1.6333333253860474
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 20,
+                        "locked": false,
+                        "name": "Color Source 2",
+                        "pos": {
+                            "x": 964.0,
+                            "y": 673.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79000002145767212,
+                            "y": 0.78333336114883423
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 9,
+                        "locked": false,
+                        "name": "SNACKPACK",
+                        "pos": {
+                            "x": 361.0,
+                            "y": 682.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.83333331346511841,
+                            "y": 0.83333331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 19,
+                        "locked": false,
+                        "name": "Salty",
+                        "pos": {
+                            "x": 780.0,
+                            "y": 682.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0670732259750366,
+                            "y": 1.0555555820465088
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Logo SP",
+                        "pos": {
+                            "x": 311.0,
+                            "y": 670.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.02500000037252903,
+                            "y": 0.02500000037252903
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Desktop Screen": [],
+                "libobs.show_scene_item.Desktop Screen": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Desktop",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Desktop Screen",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
